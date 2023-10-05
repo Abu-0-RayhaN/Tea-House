@@ -725,6 +725,10 @@ video {
   margin-top: 2rem;
 }
 
+.mr-3 {
+  margin-right: 0.75rem;
+}
+
 .flex {
   display: flex;
 }
@@ -887,6 +891,10 @@ video {
 
 .gap-1 {
   gap: 0.25rem;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .self-start {
@@ -1089,6 +1097,14 @@ video {
   padding-top: 1.25rem;
 }
 
+.pl-6 {
+  padding-left: 1.5rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1141,6 +1157,11 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold {
@@ -1265,6 +1286,27 @@ video {
     gap: 2.5rem;
   }
 
+  .sm\:gap-24 {
+    gap: 6rem;
+  }
+
+  .sm\:gap-5 {
+    gap: 1.25rem;
+  }
+
+  .sm\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .sm\:pl-12 {
+    padding-left: 3rem;
+  }
+
+  .sm\:pl-20 {
+    padding-left: 5rem;
+  }
+
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1273,6 +1315,11 @@ video {
   .sm\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 }
 
@@ -1369,6 +1416,10 @@ video {
     justify-content: center;
   }
 
+  .md\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
   .md\:gap-10 {
     gap: 2.5rem;
   }
@@ -1389,12 +1440,20 @@ video {
     gap: 1.75rem;
   }
 
+  .md\:gap-44 {
+    gap: 11rem;
+  }
+
   .md\:self-start {
     align-self: flex-start;
   }
 
   .md\:p-5 {
     padding: 1.25rem;
+  }
+
+  .md\:pl-0 {
+    padding-left: 0px;
   }
 
   .md\:text-6xl {
@@ -1455,6 +1514,10 @@ video {
 
   .lg\:gap-2 {
     gap: 0.5rem;
+  }
+
+  .lg\:gap-64 {
+    gap: 16rem;
   }
 
   .lg\:p-10 {
